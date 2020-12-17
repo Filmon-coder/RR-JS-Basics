@@ -37,7 +37,7 @@ function Circle(radius){
 }
 
 function Sphere(radius){
-  return 4 * Math.PI * radius * radius
+  return 4 * Math.PI * radius
 }
 
 // Surface Area formulas
@@ -78,3 +78,4 @@ function volumeRectangular(length, width, height){
 function volumeCylinder(radius, height){
   return Math.PI * radius * radius * height
 }
+
